@@ -119,7 +119,7 @@ def lead_art(draw, x, y, w, h):
     # caption bar
     draw.rectangle([x, y + h - 26, x + w, y + h], fill=(0, 0, 0))
     draw.text((x + 10, y + h - 21),
-              "KYIV UNDER FIRE — the largest air attack of the war",
+              "KYIV UNDER FIRE — one of the war's largest attacks",
               font=font(SANSB, 12), fill=(255, 255, 255))
 
 
@@ -227,7 +227,7 @@ def build():
     deck_w = 520
     dy = para(d, X0, y,
               "Moscow fired more than 400 drones and 110 missiles "
-              "overnight — at least 8 killed in Kyiv, three Dnipro bridges "
+              "overnight — at least 8 killed, three Dnipro bridges "
               "damaged, power cut. Two Russian cruise missiles and a "
               "suspected drone came down in Poland; Warsaw calls it a "
               "deliberate provocation and NATO jets were scrambled.",
